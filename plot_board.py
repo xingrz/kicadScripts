@@ -42,6 +42,26 @@ greenStandard = {
 	'BackGround' : ['#998060']
 }
 
+blackStandard = {
+	'Copper' : ['#a0a0a0',0.85],
+	'CopperInner' : ['#a0a0a0',0.80],
+	'SolderMask' : ['#0b0b0b',0.80],
+	'Paste' : ['#9E9E9E',0.95],
+	'Silk' : ['#f1f1f1',1.00],
+	'Edge' : ['#000000',0.20],
+	'BackGround' : ['#000000']
+}
+
+whiteStandard = {
+	'Copper' : ['#a0a0a0',0.85],
+	'CopperInner' : ['#a0a0a0',0.80],
+	'SolderMask' : ['#f5f5f5',0.80],
+	'Paste' : ['#9E9E9E',0.95],
+	'Silk' : ['#041215',1.00],
+	'Edge' : ['#000000',0.20],
+	'BackGround' : ['#998060']
+}
+
 oshPark = {
 	'Copper' : ['#E8D959',0.85],
 	'SolderMask' : ['#3a0e97',0.83],
@@ -61,7 +81,7 @@ bumpMap = {
 	'BackGround' : ['#555555']
 }
 
-colours = greenStandard
+colours = blackStandard
 
 def unique_prefix():
 	unique_prefix.counter += 1
